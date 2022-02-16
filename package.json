@@ -1,0 +1,26 @@
+{
+  "name": "nodejschat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndmen/nodejschat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndmen/nodejschat/issues"
+  },
+  "homepage": "https://github.com/ndmen/nodejschat#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "nunjucks": "^3.2.3",
+    "socket.io": "^4.4.1"
+  }
+}
